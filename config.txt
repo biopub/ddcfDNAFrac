@@ -1,0 +1,23 @@
+#================Script============================
+VCF2TAB=~/src/vcf2tab.pl
+
+#================Database==========================
+hg38=~/Database/hg38/GCA_000001405.15_GRCh38_full_analysis_set.fna
+PANEL_BED=~/src/SOTpanel.bed
+
+#=================Parameter========================
+iSize=-1
+minMem=1
+maxMem=1000
+cutOff=0.7
+nCutOff=0.02
+#readLength=150
+#barcodeLength=6 # 12
+#spacerLength=6 #5
+SPACER=GTCAGT
+#SPACER=GTCTGA
+filtersSet=n
+readTypes=dp
+repFilt=12
+#readOut=1000000
+Ncores=8
